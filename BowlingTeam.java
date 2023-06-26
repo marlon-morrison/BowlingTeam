@@ -1,3 +1,4 @@
+import java.util.*; 
 public class BowlingTeam {
    private String teamName;
    private String[] members = new String[4];
@@ -13,4 +14,9 @@ public class BowlingTeam {
    public String getMember(int number) {
       return members[number];
    }
+   public static void main(String[] args){
+      Scanner sc= new Scanner(System.in);  
+      System.out.println("Enter a string: ");  
+      String str= sc.nextLine();
+   } 
 }

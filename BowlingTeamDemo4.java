@@ -32,6 +32,7 @@ public class BowlingTeamDemo4 {
       int y;
       final int NUM_TEAM_MEMBERS = 4;
       Scanner input = new Scanner(System.in);
+      System.out.println("Welcome this is a team organizer the main purpuse set and organize teams \nbut for this example we are using bowling teams.");
       for(y = 0; y < NUM_TEAMS; ++y) {
          teams[y] = new BowlingTeam();
          System.out.print("Enter team name >> ");
